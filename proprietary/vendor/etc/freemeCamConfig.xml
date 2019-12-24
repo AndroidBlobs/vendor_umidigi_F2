@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    the freeemCamConfig.xml needs to be build int /system/etc/.
+-->
+<root>
+ <!-- camera external plugin pose show,the value can be configed true or false-->
+ <Param name="CAMERA_PLUGIN_POSE_SHOW" value="false" />
+ <!-- camera external plugin child show,the value can be configed true or false-->
+ <Param name="CAMERA_PLUGIN_CHILD_SHOW" value="false" />
+ <!-- camera external plugin watermark show,the value can be configed true or false-->
+ <Param name="CAMERA_PLUGIN_WATERMARK_SHOW" value="false" />
+ <!-- camera external plugin largemode show,the value can be configed true or false-->
+ <GeneralParamMap name ="CAMERA_PLUGIN_LARGEMODE_SHOW" value="false" />
+ <!-- camera build plugin beauty face show,the value can be configed true or false-->
+ <Param name="CAMERA_BEAUTY_FACE_SHOW" value="true" />
+ <!-- camera build plugin portrait show,the value can be configed true or false-->
+ <Param name="CAMERA_PORTRAIT_SHOW" value="true" />
+ <!-- camera build plugin video beauty face show,the value can be configed true or false-->
+ <Param name="CAMERA_VIDEO_BEAUTY_FACE_SHOW" value="true" />
+ <!-- camera build plugin software background virtual show,the value can be configed true or false-->
+ <GeneralParamMap name ="CAMERA_SLR_SHOW" value="false" />
+ <!-- camera build plugin hardware background virtual show,the value can be configed true or false-->
+ <GeneralParamMap name ="CAMERA_SDOF_SHOW" value="true" />
+ <!-- camera build plugin front single lens reflex(SLR) show,the value can be configed true or false-->
+ <GeneralParamMap name ="CAMERA_FRONT_SLR_SHOW" value="false" />
+ <!-- camera build plugin face cute show,the value can be configed true or false-->
+ <GeneralParamMap name ="CAMERA_FACE_CUTE_SHOW" value="false" />
+ <!-- camera build plugin Intelligent knowledge object(IKO) show,the value can be configed true or false-->
+ <GeneralParamMap name ="CAMERA_IKO_MODE_SHOW" value="false" />
+
+ <!-- camera back preview retio default,the value can be configed 4x3 or 16x9 or 18x9-->
+ <Param name="CAMERA_PICTURESIZE_BACK_DEFAULT" value="3968x2976" />
+ <!-- camera front preview retio default,the value can be configed 4x3 or 16x9 or 18x9-->
+ <Param name="CAMERA_PICTURESIZE_FRONT_DEFAULT" value="4x3" />
+ <!-- camera wide preview retio default,the value can be configed 4x3 or 16x9 or 18x9-->
+ <Param name="CAMERA_PICTURESIZE_WIDE_DEFAULT" value="4x3" />
+ <Param name="CAMERA_PICTURESIZE_MICRO_LEN_DEFAULT" value="4x3" />
+ <!-- camera mode default,the value can be configed 0:NORMAL,1:PANORAMA,2:HDR,3:NIGHT,4:FACE BEAUTY-->
+ <Param name="CAMERA_MODE_BACK_DEFAULT" value="0" />
+ <!-- camera mode default,the value can be configed 0:NORMAL,1:PANORAMA,2:HDR,3:NIGHT,4:FACE BEAUTY-->
+ <Param name="CAMERA_MODE_FRONT_DEFAULT" value="4" />
+ <!-- camera fake focus default,the value can be configed yes or no-->
+ <Param name="FAKE_FOCUS_DEFAULT" value="no" />
+ <!-- camera zsd on default,the value can be configed on or off-->
+ <Param name="CAMERA_ZSD_DEFAULT" value="on" />
+ <!-- camera face beauty sampler ratio,the value can be configed 1.0 or 1.5 -->
+ <Param name="CAMERA_FACE_BEAUTY_SAMPLER_RATIO" value="1.0" />
+ <!-- camera face beauty picturesize,the config is for low performance phone-->
+ <Param name="CAMERA_BACK_FACE_BEAUTY_PICTURESIZE" value="" />
+ <!-- camera face beauty max preview width -->
+ <Param name="CAMERA_FACE_BEAUTY_MAX_PREVIEW_WIDTH" value="" />
+ <!-- camera location switch: on is default open,off is default close -->
+ <Param name="CAMERA_LOCATION_SWITCH" value="off" />
+ <!-- camera flash status: auto off on is valid value-->
+ <!-- camera freeme iko config,the value can be configed true or false-->
+ <Param name="CAMERA_FREEME_IKO" value="true" />
+ <Param name="CAMERA_FLASH_STASTUS" value="off" />
+ <!-- camera brightness level: 0.0 ~ 1.0 is valid values,notice no custom is auto,default no custom -->
+ <Param name="CAMERA_BRIGHTNESS_LEVEL" value="1.0" />
+ <!-- gallery brightness level: 0.0 ~ 1.0 is valid values,notice no custom is auto,default no custom -->
+ <Param name="GALLERY_BRIGHTNESS_LEVEL" value="1.0" />
+ <!-- camera picture quality,the value can be configed full:100,high:95,medium:85,low:75-->
+ <Param name="CAMERA_PICTURE_QUALITY" value ="high" />
+ <!-- video stabilization(EIS) default,the value can be configed true or false-->
+ <Param name="VIDEO_STABILIZATION_DEFAULT" value ="false" />
+ <!-- camera continous shot num default,the value can be configed a int value -->
+ <Param name="CAMERA_CONTINUE_NUM_DEFAULT" value ="40" />
+ <!-- camera antibanding default,the value can be config auto, off, 50hz, 60hz -->
+ <Param name="CAMERA_ANTIBANDING_DEFAULT" value ="auto" />
+ <!-- camera back video size default,the value can be config large, medium, small -->
+ <Param name="CAMERA_BACK_VIDEOSIZE_DEFAULT" value = "large" />
+ <!-- camera front video size default,the value can be config large, medium, small -->
+ <Param name="CAMERA_FRONT_VIDEOSIZE_DEFAULT" value = "large" />
+ <!-- photo order in camera mode menu is 45,the value can be configed greater than or less than 45-->
+ <Param name="QR_CODE_MODE_MENU_ORDER" value ="-1" />
+ <!-- photo order in camera mode menu is 45,the value can be configed greater than or less than 45-->
+ <Param name="IKO_MODE_MENU_ORDER" value ="-1" />
+ <!-- single lens reflex(SLR) mode preview retio default,the value can be configed 4x3 or 16x9-->
+ <Param name="SLR_MODE_PREVIEWSIZE_RADIO_DEFAULT" value="16x9" />
+ <!-- single lens reflex(SLR) mode preview width,the config is for low performance phone-->
+ <Param name="SLR_MODE_PREVIEWSIZE_WIDTH" value="-1" />
+ <!-- single lens reflex(SLR) mode preview height,the config is for low performance phone-->
+ <Param name="SLR_MODE_PREVIEWSIZE_HEIGHT" value="-1" />
+ <!-- camera photo mirror default,the value can be configed on or off-->
+ <Param name="CAMERA_PHOTO_MIRROR_DEFAULT" value="off" />
+ <!-- camera shutter sound default,the value can be configed on or off-->
+ <Param name="CAMERA_SHUTTER_SOUND_DEFAULT" value="off" />
+ <!-- camera focus sound default,the value can be configed on or off-->
+ <Param name="CAMERA_FOCUS_SOUND_DEFAULT" value="off" />
+ <!-- water drop screen switch,the value can be configed true or false-->
+ <GeneralParamMap name ="WATER_DROP_SCREEN" value="false" />
+ <!-- use freeme theme styles,the value can be configed true or false-->
+ <GeneralParamMap name ="USE_FREEME_THEME_STYLES" value="false" />
+ <!-- camera Intelligent knowledge object(IKO) mode use specified browser-->
+ <GeneralParamMap name ="IKO_USE_SPECIFIED_BROWSER_PKG" value="com.ume.browser" />
+
+ <!-- support camera focus sound set,the value can be configed true or false-->
+ <Param name ="CAMERA_FOCUS_SOUND_SUPPORT" value="false" />
+ <!-- support photo continous shot set,the value can be configed true or false-->
+ <Param name ="CAMERA_CONTINUE_SUPPORT" value ="true" />
+ <!-- support save sdcard set,the value can be configed true or false-->
+ <Param name ="CAMERA_SAVE_SDCARD_SUPPORT" value="true" />
+ <!-- support photo hdr set,the value can be configed on or off-->
+ <GeneralParamMap name ="CAMERA_HDR_SUPPORT" value="true" />
+ <!-- support photo mirror set,the value can be configed true or false-->
+ <Param name="CAMERA_PHOTO_MIRROR_SUPPORT" value="true" />
+ <!-- support photo matrix set,the value can be configed on or off-->
+ <GeneralParamMap name ="CAMERA_MATRIX_SUPPORT" value="true" />
+ <!-- support face detection set,the value can be configed on or off-->
+ <GeneralParamMap name ="CAMERA_FACE_DETECTION_SUPPORT" value="true" />
+ <!-- support photo shutter sound set,the value can be configed on or off-->
+ <GeneralParamMap name ="CAMERA_SHUTTER_SOUND_SUPPORT" value="true" />
+ <!-- support camera water capture set, the value can be configed true or false-->
+ <GeneralParamMap name ="CAMERA_WATER_CAPTURE_SUPPORT" value="true" />
+ <!-- water capture default, the value can be configed on or off-->
+ <GeneralParamMap name ="CAMERA_PHOTO_WATER_CAPTURE_DEFAULT" value="off" />
+ <!-- support short video set,the value can be configed true or false-->
+ <GeneralParamMap name ="CAMERA_SHORT_VIDEO_SUPPORT" value="true" />
+ <!-- support slow motion video set,the value can be configed true or false-->
+ <GeneralParamMap name ="CAMERA_SLOW_MOTION_SUPPORT" value="true" />
+ <!-- auto exit AP default, the value can be configed on or off-->
+ <GeneralParamMap name ="CAMERA_AUTO_EXIT_AP_DEFAULT" value="off" />
+ <!-- go to google gallery, the value can be configed true or false -->
+ <GeneralParamMap name ="CAMERA_GO_TO_GOOGLE_PHOTO" value="true" />
+
+</root>
